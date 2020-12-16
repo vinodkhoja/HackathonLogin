@@ -41,8 +41,18 @@
   		<div>
   			<button class="btn btn-lg btn-block signin-btn" type="submit">Sign in</button>
   		</div>
-  		
+  		<div class="row document-status">
+			<div class="col documents-status-title">
+				Documents	
+			</div>
+			<div class="col uploaded-docs">
+			
+				3 of 15 uploaded
+				<button type="button" class="btn dropdown-toggle dropdown-toggle-split"  >
+				</button>
+		</div>
   	</form>
+	
 </body>
 
 <style>
@@ -51,6 +61,30 @@
     src: url("./static/font/comfortaa/Comfortaa-Regular.ttf");
     font-weight: normal;
     font-style: normal;
+}
+.dropdown-toggle{
+margin :0px;
+padding : 0 0 0 0px;
+position : relative;
+}
+.documents-status-title{
+margin :0px;
+padding : 0 0 0 0px;
+position : relative;
+text-align: left;
+}
+.document-status {
+	padding : 0px;
+	margin : 0px;
+	border :2px solid gray;
+	border-radius : 6px;
+	background : light-gray;
+}
+.uploaded-docs{
+margin :0px;
+padding : 0 0 0 0px;
+position : relative;
+text-align: right;
 }
 .signin-btn{
 background: #000000;
